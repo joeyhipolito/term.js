@@ -27,7 +27,7 @@
 
       term.open(document.body);
 
-      term.write('welcome to whim terminal!\r\n');
+      term.write('welcome to whim terminal!\x1b[m\r\n');
 
       socket.on('data', function(data) {
         term.write(data);
