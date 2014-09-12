@@ -7,6 +7,7 @@
     document.getElementById('loader').style.display = 'block';
   }
 
+
   window.onload = function() {
     showLoader();
     var socket = io.connect();
@@ -14,7 +15,9 @@
       hideLoader();
       var term = new Terminal({
         cols: 80,
-        rows: 24
+        rows: 24,
+        useStyle: true,
+        screenKeys: true
       });
 
       term.on('data', function(data) {
