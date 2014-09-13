@@ -34,7 +34,7 @@ var buff = []
   , socket
   , term;
 
-term = pty.fork(process.env.SHELL || 'bash', [], {
+term = pty.fork(process.env.SHELL || 'zsh', [], {
   name: require('fs').existsSync('/usr/share/terminfo/x/xterm-256color')
     ? 'xterm-256color'
     : 'xterm',

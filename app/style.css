@@ -14,7 +14,8 @@ html{
   font-family: "DejaVu Sans Mono", "Liberation Mono", monospace;
   font-size: 11px;
   display: inline-block;
-  background: #383734 !important; /* grey bg */
+  background: #282524 !important; /* grey bg */
+  border: none !important;
 }
 .focused .reverse-video {
   color: #383734;

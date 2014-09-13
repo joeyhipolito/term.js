@@ -38,6 +38,7 @@
 
       socket.on('disconnect', function() {
         term.destroy();
+        showLoader();
       });
     });
   };
