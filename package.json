@@ -14,6 +14,6 @@
   "devDependencies": {
     "express": "3.1.0",
     "socket.io": "0.9.13",
-    "pty.js": "0.2.4"
+    "pty.js": "chjj/pty.js#18238d37e2915b3ac97e4ae0d5cb3e33f76ac758"
   }
 }
